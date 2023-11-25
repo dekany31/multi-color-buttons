@@ -31,17 +31,6 @@ function _load() {
   counter.addEventListener("click", () => {
     counter.innerHTML++;
   });
-
-  // document.querySelector('#change-neighbour-color').addEventListener('click', (event) => {
-  //   console.log('Change neighbour color');
-  //   document.querySelector('#neighbour').style.backgroundColor = "#" + Math.floor(Math.random() * 16777215).toString(16);
-  // });
-
-  // let changeYour = document.querySelector('#neighbour-button');
-
-  // changeYour.addEventListener("click", () => {
-  //   document.querySelector("#neighbour-span").classList.toggle("red_background");
-  // });
 };
 
 window.addEventListener("load", _load); //lefut a fuggveny

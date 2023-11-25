@@ -14,7 +14,5 @@
 }
 
 .random_btn {
-  /* background-color: aqua;
-  background-color: rgb(random(255), random(255), random(255)); Nem mukodott*/
-  background-color: #Math.floor(Math.random() * 16777215).toString(16);
+  background-color: aqua;
 }
