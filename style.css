@@ -1,0 +1,20 @@
+.container {
+  min-height: 21px;
+  display: block;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.right_btn {
+  float: right;
+}
+
+.red_btn {
+  background-color: red;
+}
+
+.random_btn {
+  /* background-color: aqua;
+  background-color: rgb(random(255), random(255), random(255)); Nem mukodott*/
+  background-color: #Math.floor(Math.random() * 16777215).toString(16);
+}
